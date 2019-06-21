@@ -11,6 +11,6 @@ This is our first hello world app</br>
 <table>
   
   <tr>
-   <td><h2>FirstScreen</h2></br><img src=".../master/Lesson_01_FirstApp/app/src/main/res/drawable/Screenshot_20190621-121542.png?raw=true" width="350" height="400" ></td>
+   <td><h2>FirstScreen</h2></br><img src=".../master/app/src/main/res/drawable/Screenshot_20190621-121542.png?raw=true" width="350" height="400" ></td>
    </tr>
    </table>
