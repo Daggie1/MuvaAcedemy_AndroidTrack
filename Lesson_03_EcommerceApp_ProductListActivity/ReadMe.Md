@@ -2,7 +2,7 @@
 
 Our Second Acticity</br>
 <h2>Covered concept </h2></br>
-1.Intents
+1.Intents</br>
 2.AndroidManifest overview
   
 
