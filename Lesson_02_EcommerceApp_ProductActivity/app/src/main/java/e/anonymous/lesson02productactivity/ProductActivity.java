@@ -46,9 +46,18 @@ Spinner categorySpinner;
         String name = productName.getText().toString();
         String price = productPrice.getText().toString();
         String description = productDescription.getText().toString();
-        if (TextUtils.isEmpty(name) || TextUtils.isEmpty(price) || TextUtils.isEmpty(description)) {
+        if (name.length()<3) {
+            productName.setError("name is too short");
+            return true;}
+            if (TextUtils.isEmpty(price)) {
+                productPrice.setError("price is required");
+                return true;
+        }
+
+        if (description.length()<5) {
+            productDescription.setError("Description is too short");
             return true;
-        } else {
+        }else {
             return false;
         }
     }
