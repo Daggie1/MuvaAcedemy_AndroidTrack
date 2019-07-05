@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".ProductActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="200dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_margin="@dimen/activity_half_margin"
+            android:id="@+id/camera_for_file"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:tint="@color/colorPrimaryDark"
+            android:src="@drawable/ic_camera"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_margin="@dimen/activity_half_margin"
+            android:id="@+id/camera_for_thumbnail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/ic_camera_thumbnail"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_margin="@dimen/activity_half_margin"
+            android:id="@+id/gallarey"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/ic_gallarey"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_margin="@dimen/activity_half_margin"
+        android:id="@+id/contacts"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:tint="@color/colorAccent"
+        android:src="@drawable/ic_contacts_black_24dp"
+        android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_margin="@dimen/activity_half_margin"
+            android:id="@+id/share"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/ic_share_black_24dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
